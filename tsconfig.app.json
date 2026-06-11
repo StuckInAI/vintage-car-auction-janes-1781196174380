@@ -11,12 +11,10 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
-    "strict": false,
-    "noImplicitAny": false,
+    "strict": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "strictNullChecks": false,
-    "baseUrl": ".",
+    "noFallthroughCasesInSwitch": true,
     "paths": {
       "@/*": ["./src/*"]
     }
